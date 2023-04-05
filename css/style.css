@@ -44,7 +44,6 @@ body {
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.05em;
-  text-transform: capitalize;
 }
 .word-gradient {
   background: linear-gradient(120deg, #4685ff, #ffb084);
