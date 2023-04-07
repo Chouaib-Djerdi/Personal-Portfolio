@@ -9,18 +9,29 @@
       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Chouaib's Portfolio</title>
   </head>
   <body>
-    <section class="main">
+    <section id="main">
       <div class="container">
         <!-- navbar-section -->
         <nav
           class="navbar navbar-expand-lg shadow rounded my-2 bg-body-tertiary p-2 fs-5 sticky-top"
         >
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">Chouaib</a>
+            <a
+              class="navbar-brand fs-3"
+              style="font-family: 'Righteous', cursive"
+              href="#main"
+              >Chouaib Djerdi</a
+            >
             <button
               class="navbar-toggler"
               type="button"
@@ -38,27 +49,33 @@
                   <a
                     class="nav-link active hover-underline-animation"
                     aria-current="page"
-                    href="#"
+                    href="#main"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active hover-underline-animation" href="#"
+                  <a
+                    class="nav-link active hover-underline-animation"
+                    href="#services"
                     >Services</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active hover-underline-animation" href="#"
+                  <a
+                    class="nav-link active hover-underline-animation"
+                    href="#works"
                     >Projects</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active hover-underline-animation"
+                  <a
+                    class="nav-link active hover-underline-animation"
+                    href="#about"
                     >About me</a
                   >
                 </li>
               </ul>
-              <a class="btn btn-outline-dark fs-5" type="submit">Hire me</a>
+              <a class="btn btn-outline-dark fs-5" href="#contact">Hire me</a>
             </div>
           </div>
         </nav>
@@ -91,226 +108,279 @@
         </div>
 
         <!-- services-section -->
-
-        <div class="container-custom rounded my-5 p-4 text-center">
-          <div class="row">
-            <div class="col-md-8 col-xl-6 mx-auto">
-              <h5 class="fw-bold word-gradient mb-2">Our Services</h5>
-              <h3 class="fw-bold">What we can do for you</h3>
+        <section id="services">
+          <div class="container-custom rounded my-5 p-4 text-center">
+            <div class="row">
+              <div class="col-md-8 col-xl-6 mx-auto">
+                <h5 class="fw-bold word-gradient mb-2">Our Services</h5>
+                <h3 class="fw-bold">What we can do for you</h3>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <img
+                      src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/50/null/external-web-development-web-development-company-inipagistudio-mixed-inipagistudio.png"
+                    />
+                    <h5 class="card-title fw-bolder mt-2">Web Dev</h5>
+                    <p class="card-text">
+                      Armed with the newest technology, our front and back-end
+                      development teams bring your designs to life. We develop
+                      for the now and build for the longer term.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <img
+                      src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/50/null/external-desktop-web-development-company-inipagistudio-mixed-inipagistudio.png"
+                    />
+                    <h5 class="card-title fw-bolder mt-2">Web Design</h5>
+                    <p class="card-text">
+                      We create websites that will bring value to your business.
+                      Here you can expect your dream website to built.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 shadow-sm">
+                  <div class="card-body">
+                    <img
+                      src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/50/null/external-adaptive-web-development-company-inipagistudio-mixed-inipagistudio.png"
+                    />
+                    <h5 class="card-title fw-bolder mt-2">UI/UX Design</h5>
+                    <p class="card-text">
+                      We provide high-quality design for websites. It's
+                      important to have unique and attractive designs so that
+                      your audience sticks around with the site.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                  <img
-                    src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/50/null/external-web-development-web-development-company-inipagistudio-mixed-inipagistudio.png"
-                  />
-                  <h5 class="card-title fw-bolder mt-2">Web Dev</h5>
-                  <p class="card-text">
-                    Armed with the newest technology, our front and back-end
-                    development teams bring your designs to life. We develop for
-                    the now and build for the longer term.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                  <img
-                    src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/50/null/external-desktop-web-development-company-inipagistudio-mixed-inipagistudio.png"
-                  />
-                  <h5 class="card-title fw-bolder mt-2">Web Design</h5>
-                  <p class="card-text">
-                    We create websites that will bring value to your business.
-                    Here you can expect your dream website to built.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100 shadow-sm">
-                <div class="card-body">
-                  <img
-                    src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/50/null/external-adaptive-web-development-company-inipagistudio-mixed-inipagistudio.png"
-                  />
-                  <h5 class="card-title fw-bolder mt-2">UI/UX Design</h5>
-                  <p class="card-text">
-                    We provide high-quality design for websites. It's important
-                    to have unique and attractive designs so that your audience
-                    sticks around with the site.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        </section>
         <!-- works-sections -->
-
-        <div class="container-custom-2 rounded my-5 p-4 text-center">
-          <div class="row">
-            <div class="col-md-8 col-xl-6 mx-auto">
-              <h5 class="fw-bold word-gradient mb-2">Our Works</h5>
-              <h3 class="fw-bold mb-2">Discover Our Recent Projects</h3>
+        <section id="works">
+          <div class="container-custom-2 rounded my-5 p-4 text-center">
+            <div class="row">
+              <div class="col-md-8 col-xl-6 mx-auto">
+                <h5 class="fw-bold word-gradient mb-2">Our Works</h5>
+                <h3 class="fw-bold mb-2">Discover Our Recent Projects</h3>
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href=""
+                    ><img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                      class="card-img"
+                      alt="Hollywood Sign on The Hill"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href=""
+                    ><img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                      class="card-img"
+                      alt="Hollywood Sign on The Hill"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href=""
+                    ><img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                      class="card-img"
+                      alt="Hollywood Sign on The Hill"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href=""
+                    ><img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                      class="card-img"
+                      alt="Hollywood Sign on The Hill"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href=""
+                    ><img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                      class="card-img"
+                      alt="Hollywood Sign on The Hill"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <a href=""
+                    ><img
+                      src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+                      class="card-img"
+                      alt="Hollywood Sign on The Hill"
+                  /></a>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card shadow-sm">
-                <a href=""
-                  ><img
-                    src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
-                    class="card-img"
-                    alt="Hollywood Sign on The Hill"
-                /></a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <a href=""
-                  ><img
-                    src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
-                    class="card-img"
-                    alt="Hollywood Sign on The Hill"
-                /></a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <a href=""
-                  ><img
-                    src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
-                    class="card-img"
-                    alt="Hollywood Sign on The Hill"
-                /></a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <a href=""
-                  ><img
-                    src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
-                    class="card-img"
-                    alt="Hollywood Sign on The Hill"
-                /></a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <a href=""
-                  ><img
-                    src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
-                    class="card-img"
-                    alt="Hollywood Sign on The Hill"
-                /></a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <a href=""
-                  ><img
-                    src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
-                    class="card-img"
-                    alt="Hollywood Sign on The Hill"
-                /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        </section>
         <!-- about-section -->
-
-        <div class="row h-100 align-items-center">
-          <div class="col-lg-6 col-sm-12">
-            <img
-              class="img-fluid img-thumbnail img-radius"
-              src="images/Portfolio side image.png"
-              alt=""
-            />
-          </div>
-
-          <div class="col col-md-6">
-            <div class="container p-4 rounded container-custom">
-              <h1 class="main-saying">
-                About <span class="word-gradient">me</span>
-              </h1>
-              <p class="main-para">
-                Hey there, <br />
-                I'm Chouaib Djerdi a 2nd year Computer Science Student @ ESTIN
-                from Algeria. I'm a Web Developer, I'm currently mastering the
-                Full-Stack career path. I use Django Python Framework alongside
-                with Javascript and Bootstrap 5 to build beautiful websites and
-                interactive Web Applications
-              </p>
-
-              <h5 class="fw-bold word-gradient mb-2">My Stack</h5>
-              <div class="text-center">
-                <img src="https://img.icons8.com/color/96/null/django.png" />
-                <img src="https://img.icons8.com/color/96/null/bootstrap.png" />
-                <img
-                  src="https://img.icons8.com/color/96/null/javascript--v1.png"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- contact-section -->
-
-        <div class="container-custom rounded p-5">
-          <div class="row text-center">
-            <div class="col-md-8 col-xl-6 mx-auto">
-              <h5 class="fw-bold word-gradient mb-2">Contact Us</h5>
-              <h3 class="fw-bold mb-2">Share With Us Your Ideas</h3>
-            </div>
-          </div>
-          <form action="send-email.php" method="post">
-            <div class="row mb-3">
-              <div class="col">
-                <label for="first-name" class="form-label">First name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="first-name"
-                  placeholder="First name"
-                  aria-label="First name"
-                />
-              </div>
-              <div class="col">
-                <label for="last-name" class="form-label">Last name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="last-name"
-                  placeholder="Last name"
-                  aria-label="Last name"
-                />
-              </div>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="email"
-                placeholder="name@example.com"
+        <section id="about">
+          <div class="row h-100 align-items-center my-5">
+            <div class="col-lg-6 col-sm-12">
+              <img
+                class="img-fluid img-thumbnail img-radius shadow"
+                src="images/Portfolio side image.png"
+                alt=""
               />
             </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
+
+            <div class="col col-md-6">
+              <div class="container p-4 rounded container-custom">
+                <h1 class="main-saying">
+                  About <span class="word-gradient">me</span>
+                </h1>
+                <p class="main-para">
+                  Hey there, <br />
+                  I'm Chouaib Djerdi a 2nd year Computer Science Student @ ESTIN
+                  from Algeria. I'm a Web Developer, I'm currently mastering the
+                  Full-Stack career path. I use Django Python Framework
+                  alongside with Javascript and Bootstrap 5 to build beautiful
+                  websites and interactive Web Applications
+                </p>
+
+                <h5 class="fw-bold word-gradient mb-2">My Stack</h5>
+                <div class="text-center">
+                  <img src="https://img.icons8.com/color/96/null/django.png" />
+                  <img
+                    src="https://img.icons8.com/color/96/null/bootstrap.png"
+                  />
+                  <img
+                    src="https://img.icons8.com/color/96/null/javascript--v1.png"
+                  />
+                </div>
+              </div>
             </div>
-            <div class="d-grid gap-2 col-6 mx-auto">
-              <button class="btn btn-outline-dark" type="submit">Send</button>
+          </div>
+        </section>
+        <!-- contact-section -->
+        <section id="contact">
+          <div class="container-custom rounded p-5 my-5">
+            <div class="row text-center">
+              <div class="col-md-8 col-xl-6 mx-auto">
+                <h5 class="fw-bold word-gradient mb-2">Contact Us</h5>
+                <h3 class="fw-bold mb-2">Share With Us Your Ideas</h3>
+              </div>
             </div>
-          </form>
+            <form action="send-email.php" method="post">
+              <div class="row mb-3">
+                <div class="col">
+                  <label for="first-name" class="form-label">First name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="first-name"
+                    placeholder="First name"
+                    aria-label="First name"
+                  />
+                </div>
+                <div class="col">
+                  <label for="last-name" class="form-label">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="last-name"
+                    placeholder="Last name"
+                    aria-label="Last name"
+                  />
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-outline-dark" type="submit">Send</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </div>
+      <div class="footer position-relative bg-body-tertiary text-center p-5">
+        <h3 class="mb-2 fw-bold fs-2">Chouaib</h3>
+        <h5 class="fw-semibold">
+          "We Bring Your Ideas To <span class="word-gradient">Reality</span>"
+        </h5>
+
+        <a href="mailto:djerdichouaib@gmail.com"
+          ><h5>djerdichouaib@gmail.com</h5></a
+        >
+
+        <h5>Setif,Algeria</h5>
+        <div class="mb-5">
+          <a href="https://github.com/Chouaib-Djerdi" class="fs-3 mx-3"
+            ><i
+              class="fa-brands fa-github text-gradient text-gradient-hover"
+            ></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/chouaib-djerdi-53b30b254/"
+            class="fs-3 mx-3"
+            ><i
+              class="fa-brands fa-linkedin text-gradient text-gradient-hover"
+            ></i
+          ></a>
+          <a href="https://www.instagram.com/chouaib.djerdi/" class="fs-3 mx-3"
+            ><i
+              class="fa-brands fa-instagram text-gradient text-gradient-hover"
+            ></i
+          ></a>
+          <a href="https://www.facebook.com/Chouaib.Djerdi/" class="fs-3 mx-3"
+            ><i
+              class="fa-brands fa-facebook text-gradient text-gradient-hover"
+            ></i
+          ></a>
+        </div>
+        <div class="position-absolute bottom-0 start-50 translate-middle-x">
+          <p>© copyright 2023 Chouaib Djerdi | All rights reserved</p>
         </div>
       </div>
-      <div class="footer">
-        
-      </div>
     </section>
+    <script
+      src="https://kit.fontawesome.com/5bb5e7c63d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

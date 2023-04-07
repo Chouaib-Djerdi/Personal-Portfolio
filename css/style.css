@@ -64,7 +64,6 @@ body {
 .container-custom {
   background-color: #fff;
   border: 3px solid #000;
-  /* background-image: url('../../images/svg.png'); */
 }
 
 @media (max-width: 576px) {
@@ -89,4 +88,20 @@ body {
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 150px;
+}
+
+.footer {
+  background-image: url("../../images/svg.png");
+  border-top: 3px solid #000;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.text-gradient-hover:hover {
+  background-image: linear-gradient(120deg, #4685ff, #ffb084);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
