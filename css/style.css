@@ -64,6 +64,7 @@ body {
 .container-custom {
   background-color: #fff;
   border: 3px solid #000;
+  /* background-image: url('../../images/svg.png'); */
 }
 
 @media (max-width: 576px) {
