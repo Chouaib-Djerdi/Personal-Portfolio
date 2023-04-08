@@ -91,7 +91,7 @@ body {
 }
 
 .footer {
-  background-image: url("images/svg.png");
+  background-image: url("../images/svg.png");
   border-top: 3px solid #000;
 }
 
