@@ -1,0 +1,17 @@
+# Set caching for CSS files
+
+<FilesMatch "\.css$">
+Header set Cache-Control "public, max-age=31536000"
+</FilesMatch>
+
+# Set caching for image files (JPEG, PNG, GIF, SVG)
+
+<FilesMatch "\.(jpg|jpeg|png|gif|svg)$">
+Header set Cache-Control "public, max-age=31536000"
+</FilesMatch>
+
+# Set caching for HTML files
+
+<FilesMatch "\.html$">
+Header set Cache-Control "public, max-age=0, must-revalidate"
+</FilesMatch>
